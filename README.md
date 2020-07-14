@@ -3,14 +3,14 @@
 ## install it
 
 ```bash
-npm i -E svelte-typeahead
+npm i --save @dimitrilahaye/svelte-typeahead
 ```
 
 ## Use it
 
 ```svelte
 <scrip>
-    import TypeAhead from 'svelte-typeahead';
+    import TypeAhead from '@dimitrilahaye/svelte-typeahead';
     
     //...
 </script>
