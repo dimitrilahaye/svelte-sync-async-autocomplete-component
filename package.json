@@ -1,7 +1,7 @@
 {
   "name": "@dimitrilahaye/svelte-typeahead",
   "description": "Svelte typeahead / auto-completion component for sync and async data search.",
-  "license": "DBID",
+  "license": "DBAD",
   "homepage": "https://github.com/dimitrilahaye/svelte-sync-async-autocomplete-component#readme",
   "repository": {
     "type": "git",

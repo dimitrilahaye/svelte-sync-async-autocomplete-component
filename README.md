@@ -33,7 +33,7 @@ npm i --save @dimitrilahaye/svelte-typeahead
 ### Example with an array of objects
   ```html
 <script>  
-  import TypeAhead from './TypeAhead.svelte';  
+  import TypeAhead from '@dimitrilahaye/svelte-typeahead';  
   
   const users = [  
     {  
@@ -65,7 +65,7 @@ npm i --save @dimitrilahaye/svelte-typeahead
 ### Example with an array of strings
   ```html  
 <script>
-  import TypeAhead from './TypeAhead.svelte';   
+  import TypeAhead from '@dimitrilahaye/svelte-typeahead';   
 const countries = [  
 	'Russia',  
 	'Colombia',  
@@ -91,7 +91,7 @@ let selectedCountriesSync = [];
 ### Example with fetched data from an API
   ```html  
   <script>  
-  import TypeAhead from './TypeAhead.svelte';
+  import TypeAhead from '@dimitrilahaye/svelte-typeahead';
   const asyncProps = {  
 	  isAsync: true,  
 	  value: 'alpha3Code',  
