@@ -23,6 +23,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build",
     "start": "sirv public",
     "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
