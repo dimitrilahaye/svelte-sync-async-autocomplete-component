@@ -12,7 +12,9 @@
     "ui",
     "tyepahead",
     "autocomplete",
-    "async"
+    "async",
+    "jest",
+    "storybook"
   ],
   "version": "1.0.0",
   "main": "dist/index.js",
